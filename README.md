@@ -1,3 +1,8 @@
+## WEATHER DASHBOARD(Server-side APIs)
+
+## Description
+I created this application to service as a weather dashboard application for future and current weather. You can access cities all around the world and are provided with a 5 day weather forcast for the selected city. I utilized my knowledge of Javascript, API, CSS and many other resources to complete this application. Hopefully it is easy to use as a user and pleasant to view. Enjoy!
+
 ## User Story
 
 ```
