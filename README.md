@@ -28,7 +28,7 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 
-## SHOWCASE
+## Image
 ![WEATHERSTUFFe](https://github.com/HamzaR19/WeatherHW/assets/132932060/f07d487f-78f3-42c7-bd71-db6f332e9f13)
 
 
@@ -39,8 +39,9 @@ https://hamzar19.github.io/WeatherHW/
 
 ```
 
-```
 
+```
+## 
 
 
 ## License
