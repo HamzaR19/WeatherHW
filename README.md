@@ -1,3 +1,4 @@
+
 ## WEATHER DASHBOARD(Server-side APIs)
 
 ## Description
@@ -25,6 +26,9 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ```
+## SHOWCASE
+![WEATHERSTUFFe](https://github.com/HamzaR19/WeatherHW/assets/132932060/f07d487f-78f3-42c7-bd71-db6f332e9f13)
+
 
 ## Working URL
 
