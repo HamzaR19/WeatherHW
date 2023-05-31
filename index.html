@@ -1,12 +1,72 @@
+<!--Initial Basecode for Weather Dash-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--HEAD TITLE -->
+    <title>Simple Weather Dashboard</title>
 </head>
+
 <body>
-    
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-wrapper red darken-1">
+      <a href="#" class="brand-logo center">Simple Weather Dashboard</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down"></ul>
+    </div>
+  </nav>
+  <div class="container"></div>
+    <div class="row">
+
+      <div class="col s12 m4 l3 card-panel green lighten-2">
+        <h5>Search for a City:</h5>
+        <!-- Search Form -->
+        <form id="search-form">
+            <input id="city" type="text" placeholder="Enter city name"></input>
+            <button class="btn waves-effect waves-light hoverable" type="submit" value="submit">Submit</button>
+        </form>
+        <!-- Recent Cities -->
+        <h5>Recent:</h5>
+            <ul id="recently-viewed"></ul>
+      </div>
+
+      <!-- Search city(Current Day) -->
+      <div class="col s12 m8 l9 card-panel indigo lighten-1">
+        <section>
+            <h5 id="current-city"></h5>
+            <span id="current-date"></span>
+            <p id="current-icon"></p>
+            <p id="current-temperature"></p>
+            <p id="current-wind"></p>
+            <p id="current-humidity"></p>
+        </section>
+      </div>
+
+      
+      <!-- Forecast -->
+      <h5>5 Day Forecast:</h5>
+      <div class="row">
+        <div class="col s12 m4 l2 #283593 yellow darken-3 white-text card-style" id="day-1"><p></p></div>
+        <div class="col s12 m4 l2 #283593 yellow darken-3 white-text card-style" id="day-2"><p></p></div>
+        <div class="col s12 m4 l2 #283593 yellow darken-3 white-text card-style" id="day-3"><p></p></div>
+        <div class="col s12 m4 l2 #283593 yellow darken-3 white-text card-style" id="day-4"><p></p></div>
+        <div class="col s12 m4 l2 #283593 yellow darken-3 white-text card-style" id="day-5"><p></p></div>
+      </div>
+
+    </div>
+  </div>
+<!-- jQuery Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- Linking JS -->
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
